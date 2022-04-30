@@ -17,13 +17,13 @@ Při realizaci přizpůsobení zdroje na kanál pomocí rovnoměrného kódován
 \end{itemize}
 
 \section{Co specifikuje Kraft-McMilanovo číslo, Kraftova nerovnost a McMilanova věta}
-Mějme kód definovám předpisem S->X, poté KraftMilanovo číslo specifikuje
+Mějme kód definovám předpisem S->X, poté \textbf{KraftMilanovo číslo} specifikuje
 \begin{itemize}
     \item m$_i$ - počet symbolů v S, které jsou kódovány řetěžci dělky \emph{i} z množiny X.
     \item M - maximální délka kódovaného slova užívající F prvkového tělesa
     $$K = \sum_{i=1}^M \frac{m_i}{F^i}= \frac{m_1}{f} + \frac{m_2}{F^2} \dots \frac{m_M}{F^M}$$
 \end{itemize}
-McMilanova věta
+\textbf{McMilanova věta}
 \begin{itemize}
     \item Pro jednoznačně dekódovatelný kód platí Kraftova nerovnost $K \leqq 1$
     \item Věta však neplatí obráceně.
@@ -64,15 +64,15 @@ V takovém případě můžeme využít sloučení více prvků primární abece
 
 \section{Vysvětlete princip Aritmetického kódování a porovnejte s Huffmanovým kódem}
 \begin{itemize}
-    \item Aritmetické kódování realizuje návrh značky pro každý symbol primární abecedy individuálně, což umožňuje efektivně modifikovat l´d v případě změny v jejím výskytu.
-    \item V V tomto kódování se využívá vyjádření reálného čísla v rozsahu (0,1) v binrním vyjádření ve tvaru
+    \item \textbf{Aritmetické kódování} realizuje návrh značky pro každý symbol primární abecedy individuálně, což umožňuje efektivně modifikovat l´d v případě změny v jejím výskytu.
+    \item V tomto kódování se využívá vyjádření reálného čísla v rozsahu (0,1) v binrním vyjádření ve tvaru
     $$0.x_1x_2x_3\dots x_n=\frac{x_1}{2}+\frac{x_2}{2^2}+\dots+\frac{x_n}{2_n}$$
 \end{itemize}
-Narozdíl of huffmanova kódu aritmetické kódování navrhuje značku pro každý symbol primární abecedy individuálně -> v mnoha případech je nebo může být efektivnější než Huffmanovo kódování.
+Narozdíl od huffmanova kódu aritmetické kódování navrhuje značku pro každý symbol primární abecedy individuálně -> v mnoha případech je nebo může být efektivnější než Huffmanovo kódování.
 \section{Vysvětlete rozdíl mezi kódováním s dynamickým a statistickým slovníkem. Uveďte příklady kompresních algoritmů a zařaďte je do těchto skupin}
 \begin{itemize}
-    \item  Statistický slovník - Kódovací předpis musí být znám před vlastním přenosem - aritmetické kódování
-    \item Dynamický slovník - Předpis je vytvářen dynamicky během přenosu ( algoritmus LZW
+    \item  \textbf{Statistický slovník} - Kódovací předpis musí být znám před vlastním přenosem - aritmetické kódování
+    \item \textbf{Dynamický slovník} - Předpis je vytvářen dynamicky během přenosu ( algoritmus LZW
 \end{itemize}
 
 \section{Vysvětlete princip LZW kódování}
