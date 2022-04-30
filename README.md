@@ -1,3 +1,4 @@
+EDIT: Pokud si chcete projekt nahrát do Overleafu, je potřeba po nahrání nastavit v menu "main document" na main.tex. Kompilování pak provádějte mimo shared.tex (Jinak vám to bude házet error, shared.text je šablona a jako takový kompilovat nejde)
 # FEKT.tex
 
 LaTeX šablona pro sazbu studijních materiálů vytvořených studenty k přípravě na zkoušky.
